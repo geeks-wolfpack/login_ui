@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.raja.login.Login"
+    android:background="@drawable/log">
+
+    <LinearLayout
+        android:paddingTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp">
+
+        <EditText
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textColorHint="#fff"
+            android:background="@drawable/edittextstyle"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="Username"/>
+
+        <EditText
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textColorHint="#fff"
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="Password" />
+
+        <Button
+            android:textColor="#fff"
+            android:background="@drawable/buttonstyleselector"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:text="Login"
+            android:layout_height="60dp" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
